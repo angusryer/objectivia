@@ -1,0 +1,22 @@
+
+
+.nav {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__title {
+        
+    }
+
+    &__links {
+        display: flex;
+        list-style-type: none;
+        padding: 0.5rem;
+
+        & :hover {
+            background-color: bisque;
+        }
+    }
+}
