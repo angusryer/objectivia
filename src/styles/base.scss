@@ -1,0 +1,30 @@
+@import './allutilities';
+
+* {
+    font-family: "rubik";
+    margin: 0;
+    padding: 0;
+}
+
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+::after {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+    
+    &:visited {
+        color: black;
+    }
+}

@@ -1,22 +1,46 @@
-
+@import "../../styles/allutilities";
 
 .nav {
-    height: 4rem;
+    position: sticky;
+  height: 6.8rem;
+  width: 18rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: transparentize(slategray, 0.9);
+  border-bottom-right-radius: 20rem;
+  border-bottom-left-radius: 20rem;
+
+  &__title {
+    letter-spacing: 5px;
+    color: $dark-orange-red;
+  }
+
+  &__links {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    list-style-type: none;
+    transform: translateY(-4rem);
+  }
 
-    &__title {
-        
+  &__link {
+    display: flex;
+    justify-content: center;
+    min-width: 2.5rem;
+    max-height: 0.05rem;
+    padding: 0.1rem 1rem;
+
+    &:nth-child(2) {
+      color: $dark-orange-red;
+      font-size: 1.2rem;
     }
 
-    &__links {
-        display: flex;
-        list-style-type: none;
-        padding: 0.5rem;
-
-        & :hover {
-            background-color: bisque;
-        }
+    &:hover {
+      background-color: transparentize(slategrey, 0.5);
+      border-radius: 0.25rem;
     }
+  }
 }
