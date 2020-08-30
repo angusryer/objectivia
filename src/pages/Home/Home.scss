@@ -1,0 +1,14 @@
+@import '../../styles/allutilities';
+
+@mixin break {
+    @media screen and (min-width: 400px) {
+        @content;
+    }
+}
+
+
+h2 {
+    @include break {
+        color: red;
+    }
+}

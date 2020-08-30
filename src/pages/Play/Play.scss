@@ -1,0 +1,15 @@
+@import '../../styles/allutilities';
+
+.play {
+    height: 100vh;
+    background: linear-gradient(160deg, rgba(150,100,100,.8), rgba(255,255,255,1) 70.71%),
+            linear-gradient(90deg, rgba(50,50,50,.8), rgba(255,255,255,1) 70.71%),
+            linear-gradient(20deg, rgba(150,100,100,.8), rgba(255,255,255,1) 70.71%);
+    border-top-left-radius: 40rem;
+    border-top-right-radius: 40rem;
+    transform: translateY(-1rem);
+
+    &__title {
+        
+    }
+}
