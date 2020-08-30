@@ -50,8 +50,7 @@ const NavBar = styled.nav`
       rgba(255, 255, 255, 1),
       rgba(150, 100, 100, 0.8) 70.71%
     );
-  }
-`;
+`
 
 const Title = styled.h2`
   letter-spacing: 5px;
