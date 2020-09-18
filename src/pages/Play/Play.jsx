@@ -7,7 +7,7 @@ export default function Play() {
         // of them as cards. When the user selects a card, the app is displayed
         // in the 'play' window.
         <main className="play">
-            <h1 className="play__title"></h1>
+            <h1 className="play__title">PLAY</h1>
         </main>
     )
 }

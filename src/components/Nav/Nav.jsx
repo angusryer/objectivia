@@ -11,8 +11,8 @@ export default function Nav() {
         <StyledLink to="/">
           <li>home</li>
         </StyledLink>
-        <StyledLink to="/play">
-          <li>play</li>
+        <StyledLink to="/demos/:repo-name">
+          <li>begin</li>
         </StyledLink>
         <StyledLink to="/about">
           <li>about</li>
@@ -26,7 +26,7 @@ const NavBar = styled.nav`
   position: sticky;
   height: 6.8rem;
   width: 18rem;
-  margin: 0 auto;
+  margin: 0 auto 0.25rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,17 +38,17 @@ const NavBar = styled.nav`
   background: linear-gradient(
       200deg,
       rgba(255, 255, 255, 1),
-      rgba(150, 100, 100, 0.8) 70.71%
+      rgba(150, 100, 100, 0.8) 200%
     ),
     linear-gradient(
       270deg,
       rgba(255, 255, 255, 1),
-      rgba(50, 50, 50, 0.8) 70.71%
+      rgba(50, 50, 50, 0.8) 100%
     ),
     linear-gradient(
       340deg,
       rgba(255, 255, 255, 1),
-      rgba(150, 100, 100, 0.8) 70.71%
+      rgba(150, 100, 100, 0.8) 100%
     );
 `
 

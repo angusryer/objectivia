@@ -14,10 +14,10 @@ function App() {
       <Route exact path="/">
         <Home />
       </Route>
-      <Route path={`${match.url}play`}>
-        <Play />
+      <Route exact path={`${match.url}demos/:repo-name`}>
+        <Play selectedRepo={match.state}/>
       </Route>
-      <Route path={`${match.url}help`}>
+      <Route exact path={`${match.url}about`}>
         <About />
       </Route>
     </>
